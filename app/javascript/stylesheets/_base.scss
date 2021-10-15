@@ -1,3 +1,35 @@
-body {
-  background-color: #eeeeee;
+.project-card {
+  background-color: #ecf0f1;
+  transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -ms-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  &:hover {
+    background-color: #bdc3c7;
+  }
+}
+
+.bg-color {
+  background-color: #f1c40f;
+}
+
+.btn-primary {
+  background-color: #2980b9;
+  border: none;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  border: none;
+}
+
+.btn-success {
+  background-color: #27ae60;
+  border: none;
+}
+
+.btn-warning {
+  background-color: #f1c40f;
+  border: none;
 }
